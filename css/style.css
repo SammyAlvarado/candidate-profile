@@ -10,10 +10,31 @@ body {
     background-color: lightgray;
 }
 
+h1 {
+    font-size: 1.5625rem; /*25/16*/
+    color: white;
+}
+
+h2 {
+    font-size: 1.125rem; /*18/16*/
+    color: white;
+}
+
 header,
 section,
 footer {
     text-align: center;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+a:link {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 @media
